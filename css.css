@@ -58,10 +58,12 @@ main img{
     margin: 2px;
 }
 .pricipal h1{
-    font-weight: 700;
+    padding-bottom: 9px;
+    font-weight: 900;
 }
 .pricipal p{
     padding-bottom: 15px;
+    color: gray;
 }
 .plan{
     background: var(--veryPaleBlue);
@@ -75,14 +77,15 @@ main img{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 25px 20px;
+    padding: 21px 20px;
     border-radius: 10px;
 }
+
 .pay{
     background-color: var(--brightBlue);
     color: white;
     padding: 10px;
-    font-size: 16px;
+    font-size: 14px;
     outline: none;
     border-radius: 10px;
     font-weight: 800;
@@ -90,6 +93,7 @@ main img{
     text-align: center;
     padding: 7px;
     border: none;
+    padding: 16px;
     cursor: pointer;
     transition: 1s;
 }
